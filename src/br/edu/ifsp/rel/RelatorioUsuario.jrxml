@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.17.0.final using JasperReports Library version 6.17.0-6d93193241dd8cc42629e188b94f9e0bc5722efd  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="RelatorioUsuario" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="34af9b34-eb7e-4ded-9578-00f4d3076518">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="DataAdapter.xml"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<queryString>
+		<![CDATA[SELECT * FROM funcionario ORDER BY ultimoacesso DESC]]>
+	</queryString>
+	<field name="codFuncionario" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="codFuncionario"/>
+		<property name="com.jaspersoft.studio.field.label" value="codFuncionario"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="funcionario"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nome" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="nome"/>
+		<property name="com.jaspersoft.studio.field.label" value="nome"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="funcionario"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="cpf" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="cpf"/>
+		<property name="com.jaspersoft.studio.field.label" value="cpf"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="funcionario"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="datanascimento" class="java.sql.Date">
+		<property name="com.jaspersoft.studio.field.name" value="datanascimento"/>
+		<property name="com.jaspersoft.studio.field.label" value="datanascimento"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="funcionario"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="endereco" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="endereco"/>
+		<property name="com.jaspersoft.studio.field.label" value="endereco"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="funcionario"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="numero" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="numero"/>
+		<property name="com.jaspersoft.studio.field.label" value="numero"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="funcionario"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="bairro" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="bairro"/>
+		<property name="com.jaspersoft.studio.field.label" value="bairro"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="funcionario"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="cidade" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="cidade"/>
+		<property name="com.jaspersoft.studio.field.label" value="cidade"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="funcionario"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="cep" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="cep"/>
+		<property name="com.jaspersoft.studio.field.label" value="cep"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="funcionario"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="uf" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="uf"/>
+		<property name="com.jaspersoft.studio.field.label" value="uf"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="funcionario"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="telefone" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="telefone"/>
+		<property name="com.jaspersoft.studio.field.label" value="telefone"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="funcionario"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="telefonesecundario" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="telefonesecundario"/>
+		<property name="com.jaspersoft.studio.field.label" value="telefonesecundario"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="funcionario"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="cargo" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="cargo"/>
+		<property name="com.jaspersoft.studio.field.label" value="cargo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="funcionario"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="login" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="login"/>
+		<property name="com.jaspersoft.studio.field.label" value="login"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="funcionario"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="senha" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="senha"/>
+		<property name="com.jaspersoft.studio.field.label" value="senha"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="funcionario"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="ultimoacesso" class="java.util.Date">
+		<property name="com.jaspersoft.studio.field.name" value="ultimoacesso"/>
+		<property name="com.jaspersoft.studio.field.label" value="ultimoacesso"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="funcionario"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tipo" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="tipo"/>
+		<property name="com.jaspersoft.studio.field.label" value="tipo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="funcionario"/>
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="81" splitType="Stretch">
+			<image>
+				<reportElement x="1" y="0" width="85" height="81" uuid="a0688351-9c4f-4f98-9c00-e9f9b13078fc"/>
+				<imageExpression><![CDATA["src/br/edu/ifsp/rel/imagens/bicycle (1).png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="86" y="0" width="468" height="81" uuid="98381903-8f3b-4c8a-9c49-82535733b586"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="20"/>
+				</textElement>
+				<text><![CDATA[Sistema Ciclo Bike – Vendas e Serviços de Oficina Bicicletas]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="53" splitType="Stretch">
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="437" y="0" width="116" height="16" uuid="01a1a8f5-cbef-497b-8bfb-bd97cf3780a5"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Gerado em " + new java.text.SimpleDateFormat("dd/MM/yyyy").format(new Date())]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="132" y="15" width="290" height="22" uuid="aae83f39-6ea2-47bd-b902-e03289be6a39"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Arial" size="18"/>
+				</textElement>
+				<text><![CDATA[Relatório de Usuários/Funcionários]]></text>
+			</staticText>
+			<line>
+				<reportElement x="1" y="52" width="553" height="1" uuid="281251c3-3832-4436-adcd-ffb2842764f1"/>
+			</line>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="26" splitType="Stretch">
+			<line>
+				<reportElement x="1" y="25" width="553" height="1" uuid="15e96c86-5c42-4712-9c68-61a75ae58b24"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="0" width="50" height="24" uuid="1038c40a-224d-4501-8c41-3f4306aafe23">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3aae4714-8de4-441c-ba12-1ad20bbc9911"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Código]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="0" width="190" height="24" uuid="108c76cb-6aa3-482d-93a9-6a9120c44b89">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="48732b0a-f39c-4cc6-885f-d78c9abc7bb4"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nome]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="240" y="0" width="110" height="24" uuid="0ba5c2fc-773c-4dc8-b735-c690311f0960">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0a95c836-c77b-4eb1-bb22-5a5abc12023d"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cargo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="350" y="0" width="100" height="24" uuid="6da92675-c970-4bf7-bf33-f7e44b4d07e7">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="076338ae-3b4f-41a6-bace-a967d173bab1"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ultimo Acesso]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="450" y="0" width="100" height="24" uuid="b2306106-d522-446b-b664-30eb94924e66">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="27007348-dcc2-4320-9e32-30bee918f9c7"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tipo de Usuário]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="26" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="50" height="26" uuid="abd13344-8545-40d2-b245-ad7ff145e9b4">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3aae4714-8de4-441c-ba12-1ad20bbc9911"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{codFuncionario}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="50" y="0" width="190" height="26" uuid="622c92d7-156b-490e-b92e-4e856e885166">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="48732b0a-f39c-4cc6-885f-d78c9abc7bb4"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nome}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="0" width="110" height="26" uuid="3508956e-95ec-47d4-851c-a609f3a16251">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0a95c836-c77b-4eb1-bb22-5a5abc12023d"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cargo}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="350" y="0" width="100" height="26" uuid="ec27a5f1-6f52-4732-9768-98badbb63107">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="076338ae-3b4f-41a6-bace-a967d173bab1"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ultimoacesso} == null ? " " : $F{ultimoacesso}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="450" y="0" width="100" height="26" uuid="f1e0cdfd-c9e5-459b-985f-377a4aca4c92">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="27007348-dcc2-4320-9e32-30bee918f9c7"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tipo} == null ? " " : $F{tipo}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="12" splitType="Stretch">
+			<textField>
+				<reportElement x="190" y="0" width="69" height="12" uuid="64ede5c2-41bc-4503-9ef2-e74ccbd638b9"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Página " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="259" y="0" width="134" height="12" uuid="e51da7f9-72cc-4f2d-baf1-da60e143a7ef"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" de " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="1" y="0" width="553" height="1" uuid="8a73bf00-f02c-4fff-ac42-f9bbc90021c3"/>
+			</line>
+		</band>
+	</pageFooter>
+</jasperReport>
